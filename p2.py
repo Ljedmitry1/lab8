@@ -25,7 +25,7 @@ def video_mark():
         
         if cv2.waitKey(1) == ord('q'):
             break
-
+    file.close()
     cap.release()
 
 if __name__ == '__main__':
